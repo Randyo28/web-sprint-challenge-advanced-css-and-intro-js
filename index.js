@@ -233,7 +233,7 @@ function getArtistByIndex(array, num) {
     return `the artist at index ${num} is ${array[i].name}`
   }
 }  
-console.log()
+// console.log()
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -245,13 +245,13 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array){
-  let newArray = []
+  let newArray = [];
   for(let i = 0; i < array.length; i++){
-    if(array[i].years >= 1900 && array[i].years <= 2000){
-      newArray.push(array[i])
+    if(array[i].years >= "1900" && array[i].years <= "2000"){
+      newArray.push(array[i].name);
     }
   }
-  return newArray
+  return newArray;
 }
 
 console.log(get20s(artists))
@@ -273,7 +273,7 @@ function removeArtist(array, ind){
    }
    return array.length - 1
 }
-   console.log(removeArtist(artists, 1))
+  //  console.log(removeArtist(artists, 1))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -321,7 +321,7 @@ function lotsOfArt(array){
   }
   return newArray
 }
-console.log(lotsOfArt(artists))
+// console.log(lotsOfArt(artists))
 
 
 
