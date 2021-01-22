@@ -154,6 +154,10 @@ button:hover{
         width: 100%;
     }
 
+    .title-container hr {
+        width: 100%;
+    }
+
     .artists-container{
         flex-flow: column nowrap;
         justify-content: center;
